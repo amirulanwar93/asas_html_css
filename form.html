@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+  </head>
+  <body>
+    <h2>Borang Pendaftaran</h2>
+
+    <form action="script.js" method="post">
+      <p>
+        <label for="nama">Nama</label>
+        <input type="text" name="nama" />
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="text" name="email" />
+      </p>
+      <p>
+        <label for="alamat">Alamat</label>
+        <input type="text" name="alamat" />
+      </p>
+      <p>
+        <label for="mobile_no">No Telefon</label>
+        <input type="text" name="mobile_no" />
+      </p>
+      <p>
+        <label for="status">Status Pekerjaan</label>
+        <select name="status" id="status">
+          <option value="bekerja">Bekerja</option>
+          <option value="belajar">Belajar</option>
+          <option value="tiada_pekerjaan">Tiada Pekerjaan</option>
+        </select>
+      </p>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
